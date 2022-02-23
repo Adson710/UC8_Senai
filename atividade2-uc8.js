@@ -19,17 +19,22 @@ if (dataInicioEvento < dataAtual && dataFimEvento > dataAtual) {
     console.log("O período para inscrições já acabou.")
 }
 
-//Função para cadastro, que está quase que inútil, pois não consegui entrar os dados pelo console
+//Função para cadastro, que está quase que inútil, pois não consegui entrar com os dados pelo console
 function CadastroEvento() {
     console.log("Digite sua idade")
     var idade = 18
+    //simula a entrada de dados pelo usuário
     console.log(idade)
 
     if (idade >= 18) {
         console.log("Sua idade é permitida, parabéns! \nDigite seu Nome: ")
         var nome = "John Senna"
+
+        //simula a entrada de dados pelo usuário
         console.log(nome)
         console.log(`Parabéns, Você está inscrito ${nome}!\n`)
+
+        //simula a listagem de inscritos
         console.log(`\n*** Usuários cadastrados: ***\n_________________________ \n1 ${nome}____________|\n2 ______________________|`)
 
 
